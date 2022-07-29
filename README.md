@@ -57,7 +57,7 @@ Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](https://github.com/BertrandConxy/Natours/issues).
 
 ## Acknowledgements
-- Thanks to Brian
+- Thanks to Jonass 
 - Thanks to my coding partners at Microverse
 
 ## 📝 License
