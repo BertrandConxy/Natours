@@ -35,7 +35,6 @@ body {
   font-weight: 700;
   background-image: linear-gradient(to right, $color-light, $color-dark);
   display: inline-block;
-  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   transition: all 0.2s;
