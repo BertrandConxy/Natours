@@ -8,7 +8,7 @@
     border-radius: 10rem;
     transition: all 0.2s linear;
     position: relative;
-    font-size: 1.6rem;
+    font-size: $default-font-size;
   }
 
   &::after {
@@ -50,5 +50,23 @@
 
   &--animated {
     animation: moveInDown 0.5s ease-out backwards 0.75s;
+  }
+}
+
+.btn-text {
+  &:link,
+  &:visited {
+    color: $color-primary;
+    font-size: $default-font-size;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid $color-primary;
+    padding: 3px;
+  }
+
+  &:hover {
+  }
+
+  &:active {
   }
 }
