@@ -163,6 +163,23 @@ body {
 .btn-text:active {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
 
+.composition {
+  position: relative; }
+  .composition__photo {
+    position: absolute;
+    width: 55%;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+    border-radius: 2px; }
+    .composition__photo--p1 {
+      left: 0;
+      top: -2rem; }
+    .composition__photo--p1 {
+      right: 0;
+      top: 2rem; }
+    .composition__photo--p1 {
+      left: 2rem;
+      top: 10rem; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
