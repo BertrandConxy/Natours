@@ -8,7 +8,7 @@
     height: 50rem;
     transition: all 0.8s ease;
     font-size: 4rem;
-    color: #fff;
+    overflow: hidden;
     position: absolute;
     top: 0;
     left: 0;
@@ -22,7 +22,7 @@
     }
 
     &--back {
-      transform: rotateY(180deg);
+      transform: rotateY(-180deg);
 
       &-1 {
         background-image: linear-gradient(
@@ -40,5 +40,20 @@
 
   &:hover &__side--back {
     transform: rotateY(0deg);
+  }
+
+  &__picture {
+    background-size: cover;
+    height: 23rem;
+    &--1 {
+      background-image: linear-gradient(
+          to right bottom,
+          $color-secondary-light,
+          $color-secondary-dark
+        ),
+        url("../img/nat-5.jpg");
+
+      background-blend-mode: screen;
+    }
   }
 }
