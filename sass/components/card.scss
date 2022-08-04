@@ -1,6 +1,8 @@
 .card {
   perspective: 150rem;
+
   --moz-perspective: 150rem;
+
   position: relative;
   height: 50rem;
 
@@ -25,11 +27,12 @@
       transform: rotateY(-180deg);
 
       &-1 {
-        background-image: linear-gradient(
-          to right bottom,
-          $color-secondary-light,
-          $color-secondary-dark
-        );
+        background-image:
+          linear-gradient(
+            to right bottom,
+            $color-secondary-light,
+            $color-secondary-dark
+          );
       }
     }
   }
@@ -49,13 +52,13 @@
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 
     &--1 {
-      background-image: linear-gradient(
+      background-image:
+        linear-gradient(
           to right bottom,
           $color-secondary-light,
           $color-secondary-dark
         ),
         url("../img/nat-5.jpg");
-
       background-blend-mode: screen;
     }
   }
@@ -74,14 +77,15 @@
 
   &__heading-span {
     padding: 1rem 1.5rem;
-    display: inline-block;
+    -webkit-box-decoration-break: clone;
 
     &--one {
-      background-image: linear-gradient(
-        to right bottom,
-        rgba($color-secondary-light, 0.85),
-        rgba($color-secondary-dark, 0.85)
-      );
+      background-image:
+        linear-gradient(
+          to right bottom,
+          rgba($color-secondary-light, 0.85),
+          rgba($color-secondary-dark, 0.85)
+        );
     }
   }
 }
