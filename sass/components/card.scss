@@ -69,12 +69,14 @@
     top: 12rem;
     right: 2rem;
     text-align: right;
-    width: 75%;
+    width: 85%;
   }
 
   &__heading-span {
     padding: 1rem 1.5rem;
-    &--1 {
+    display: inline-block;
+
+    &--one {
       background-image: linear-gradient(
         to right bottom,
         rgba($color-secondary-light, 0.85),

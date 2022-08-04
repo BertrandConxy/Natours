@@ -251,10 +251,11 @@ body {
     top: 12rem;
     right: 2rem;
     text-align: right;
-    width: 75%; }
+    width: 85%; }
   .card__heading-span {
-    padding: 1rem 1.5rem; }
-    .card__heading-span--1 {
+    padding: 1rem 1.5rem;
+    display: inline-block; }
+    .card__heading-span--one {
       background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 107, 0, 0.85)); }
 
 .row {
