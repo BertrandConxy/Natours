@@ -232,6 +232,8 @@ body {
         background-image: linear-gradient(to right bottom, #ffb900, #ff6b00); }
       .card__side--back-2 {
         background-image: linear-gradient(to right bottom, #7ed56f, #28b485); }
+      .card__side--back-3 {
+        background-image: linear-gradient(to right bottom, #2998ff, #5653fa); }
   .card:hover .card__side--front {
     transform: rotateY(180deg); }
   .card:hover .card__side--back {
@@ -246,6 +248,9 @@ body {
       background-blend-mode: screen; }
     .card__picture--2 {
       background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url("../img/nat-6.jpg");
+      background-blend-mode: screen; }
+    .card__picture--3 {
+      background-image: linear-gradient(to right bottom, #2998ff, #5653fa), url("../img/nat-7.jpg");
       background-blend-mode: screen; }
   .card__heading {
     font-size: 2.6rem;
