@@ -114,15 +114,16 @@
     text-align: right;
     width: 75%;
   }
+
   &__heading-span {
     padding: 1rem 1.5rem;
     -webkit-box-decoration-break: clone;
-
   }
-  
+
 
   &__details {
     padding: 3rem;
+
     ul {
       list-style: none;
       width: 80%;
@@ -140,31 +141,28 @@
     }
   }
 
-
   &__cta {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
-    text-align: center
+    text-align: center;
   }
 
-    &__price-box {
-     text-align: center;
-      margin-bottom: 8rem;
-      color: $color-white;
-    }
+  &__price-box {
+    text-align: center;
+    margin-bottom: 8rem;
+    color: $color-white;
+  }
 
-    &__price-only {
-      font-size: 1.4rem;
-      text-transform: uppercase;
-    }
+  &__price-only {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+  }
 
-    &__price-value {
-      font-size: 6rem;
-      font-weight: 100;
-    }
+  &__price-value {
+    font-size: 6rem;
+    font-weight: 100;
+  }
 }
-
-
