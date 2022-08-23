@@ -304,6 +304,23 @@ body {
     font-size: 6rem;
     font-weight: 100; }
 
+.story {
+  width: 75%;
+  margin: 0 auto;
+  box-shadow: 0 3rem 6rem rgba(40, 180, 133, 0.1);
+  background-color: #fff;
+  border-radius: 3px;
+  font-size: 1.6rem;
+  padding: 6rem; }
+  .story__shape {
+    width: 15rem;
+    height: 15rem;
+    float: left;
+    shape-outside: circle(50% at 50% 45%);
+    --webkit-shape-outside: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    background-color: orange; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
@@ -368,3 +385,7 @@ body {
   background-color: #f7f7f7;
   padding: 25rem 0 15rem 0;
   margin-top: -10rem; }
+
+.section-stories {
+  padding: 15rem 0;
+  background: #f7f7f7; }
