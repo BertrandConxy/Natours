@@ -325,7 +325,9 @@ body {
     transform: translateX(-2rem) skewX(12deg); }
   .story__img {
     width: 100%;
-    height: 100%; }
+    height: 100%;
+    transition: all 0.6s;
+    transform: scale(1.2); }
   .story__text {
     transform: skewX(12deg); }
   .story__caption {
@@ -343,6 +345,9 @@ body {
   .story:hover .story__caption {
     opacity: 1;
     transform: translate(-50%, -50%); }
+  .story:hover .story__img {
+    transform: scale(1);
+    filter: blur(2px) brightness(70%); }
 
 .row {
   max-width: 114rem;
